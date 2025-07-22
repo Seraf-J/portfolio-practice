@@ -30,4 +30,4 @@ This repository contains a simple and clean starter template to help you practic
 Use the command below to copy the project to your computer:
 
 ```bash
-git clone https://github.com/<your-username>/html-css-portfolio-practice.git
+git clone https://github.com/Brian-Shifoko/portfolio-practice.git
