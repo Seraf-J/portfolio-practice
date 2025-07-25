@@ -1,0 +1,65 @@
+.about-section {
+  background: linear-gradient(120deg, #e3ecfa 0%, #f7f8fa 100%);
+  text-align: center;
+  padding: 5rem 2rem 4rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(45, 114, 217, 0.07);
+  margin: 3rem auto;
+  max-width: 800px;
+}
+
+.about-section h1 {
+  color: #2d72d9;
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-section h2 {
+  color: #1a4e8a;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.about-section p {
+  color: #444;
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 2rem auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.about-section ul li {
+  background: #f0f4fa;
+  color: #2d72d9;
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 1px 4px rgba(45, 114, 217, 0.04);
+}
+
+header nav .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d72d9;
+  letter-spacing: 2px;
+  margin-right: 2rem;
+}
+
+footer {
+  background: #2d72d9;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0;
+  margin-top: 2rem;
+  font-size: 1rem;
+  border-radius: 0 0 12px 12px;
+}
