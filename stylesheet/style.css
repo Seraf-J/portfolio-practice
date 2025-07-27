@@ -1,4 +1,4 @@
-* { /
+* {
   margin: 0; /*Resets the default margin of all elements to zero*/
   padding: 0; /*Resets the default margin of all elements to zero*/
   box-sizing: border-box; /*Changes the box model so the width and height of elements include padding and borders*/
