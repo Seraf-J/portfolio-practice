@@ -73,9 +73,9 @@ nav {
   background: #1a4e8a;
   transform: translateY(-2px) scale(1.04); /*Moves up and scales on hover*/
 }
-
+ 
 .hero {
-  background: linear-gradient(120deg, #e3ecfa 0%, #f7f8fa 100%);
+  background: linear-gradient(120deg, #e3ecfa 0%, #f7f8fa 100%);/*creates a linear gradient background that transitions from a light blue at 0% to a very light gray at 100%*/
   text-align: center;
   padding: 5rem 2rem 4rem 2rem;
 }
