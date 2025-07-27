@@ -1,7 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* { /
+  margin: 0; /*Resets the default margin of all elements to zero*/
+  padding: 0; /*Resets the default margin of all elements to zero*/
+  box-sizing: border-box; /*Changes the box model so the width and height of elements include padding and borders*/
 }
 
 body {
@@ -14,14 +14,14 @@ body {
 header {
   background: #fff;
   padding: 0.5rem 0;
-  position: sticky;
+  position: sticky; /*elements remain visible while scrolling*/
   top: 0;
   z-index: 100;
 }
 
 nav {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto; /*0 sets the top and bottom margin to zero, auto for left and right margin allows element to be centered*/
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,18 +54,18 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #2d72d9;
+  color: #2d72d9; /*changes color on hover*/
 }
 
 .btn {
   display: inline-block;
   background: #2d72d9;
   color: #fff;
-  padding: 0.7rem 2rem;
-  border-radius: 30px;
+  padding: 0.7rem 2rem; /*vertical padding of 0.7rem, horizontal padding of 2rem*/
+  border-radius: 30px; /*rounds the corners of the button*/
   text-decoration: none;
   font-weight: 600;
-  margin-top: 1.5rem;
+  margin-top: 1.5rem; /*Adds space above the button, separates from any content above*/
   transition: background 0.2s, transform 0.2s;
 }
 
